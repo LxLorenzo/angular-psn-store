@@ -1,0 +1,31 @@
+.card-pricing__container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  background-color: rgba(0,0,0,0.8);
+  color: antiquewhite;
+  padding: 10px;
+}
+
+.card-pricing__title {
+  margin-bottom: 3px;
+}
+
+.card-pricing__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-pricing__content-console span {
+  font-weight: bolder;
+  color: aqua;
+}
+
+.card-pricing__content-console {
+  display: flex;
+  gap: 10px;
+}

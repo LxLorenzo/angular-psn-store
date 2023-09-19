@@ -1,0 +1,8 @@
+<a href="" class="card__container">
+  <app-card-label gameLabel="{{ gameLabel }}"></app-card-label>
+  <app-card-pricing
+    gamePrice="R$ {{ gamePrice }}"
+    gameType="{{ gameType }}"
+  ></app-card-pricing>
+  <img [src]="[gameCover]" alt="PS4 Game" class="card__container-img" />
+</a>
